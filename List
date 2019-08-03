@@ -1,0 +1,61 @@
+# List
+
+lst=[10,20,'faiz ahmad',-10,8,3]
+print(lst)
+
+print(lst[3])
+
+print(lst[::-1])
+
+print(lst[2])
+
+append a list
+
+lst.append('student')
+
+print(lst)
+
+lst.remove(10)
+
+print(lst)
+
+del(lst[1])
+
+print(lst)
+
+print(max(lst))
+
+in case of append we can aslo use insert i.e.,lst.insert(index_no,value)
+
+other_list=['one','two']
+type(other_list)
+
+lst1=['three','four','five','six']
+type(lst1)
+
+new_list=other_list + lst1
+print(new_list)
+
+new_list[0]='python'
+print(new_list)
+
+new_list.pop(0)
+print(new_list)
+
+new_list.append('seven')
+new_list
+
+new_list.reverse()
+print(new_list)
+
+lst1=[1,2,3,4]
+lst2=[5,6,7,8]
+lst3=[9,10,11,12]
+matrix=[lst1,lst2,lst3]
+print(matrix)
+type(matrix)
+
+matrix[1][1]
+
+new_list=[x[0] for x in matrix]
+print(new_list)
