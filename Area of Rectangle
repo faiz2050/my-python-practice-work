@@ -1,0 +1,4 @@
+l=input('Enter the length of the Rectangle :')
+b=input('Enter the length of the Rectangle :')
+area=float(l)*float(b)
+print('The Area of the Rectanle : ',area)
