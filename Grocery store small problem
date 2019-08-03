@@ -1,0 +1,4 @@
+grocery_list={'bread':60,'butter':100,'milk':50,'juice':200,'egg':70,'cream':200,'biscuit':{'Marie gold':100,'Britania':60,'Gooday':100},'coffee':150}
+
+inp_item=input('Enter the item you want to know the price: ')
+print('price of item: ',grocery_list[inp_item])
