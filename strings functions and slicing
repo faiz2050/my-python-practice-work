@@ -1,0 +1,38 @@
+# String
+
+ s="you are owesome"
+print(s)
+
+print(s[2])
+
+print(s*2)
+
+Slicing of string
+
+print(s[:8])
+
+print(s[::-1])
+
+print(s.strip())
+
+print(s.lstrip())
+
+
+print(s.rstrip())
+
+lstrip and rstrip is used for remove the spacing between left and right side
+
+print(s.strip)
+
+print(s.find('owe',0,8))
+
+print(s.count('a'))
+
+s='you are owsome'
+print(s.replace('owsome','awsome'))
+
+print(s.lower())
+
+print(s.upper())
+
+print(s.title())
