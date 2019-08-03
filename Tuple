@@ -1,0 +1,33 @@
+# tuple
+
+tpl=(10,20,'faiz',3)
+
+type(tpl)
+
+print(tpl[3])
+
+print(tpl*3)
+
+in tuple we cannt allow slicing becoz we cannt modify tuple
+
+print(tpl.count(20))
+
+print(lst)
+
+tpl1=tuple(lst)
+
+print(tpl1)
+
+st={10,20,'faiz',30,15}
+
+st.update([80,90])
+
+print(st)
+
+print(type(st))
+
+print(s*st)
+
+st.remove(10)
+
+In set we cannot allow duplicates indexing slicing repetition it will allow updation
