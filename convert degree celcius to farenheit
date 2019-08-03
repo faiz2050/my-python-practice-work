@@ -1,0 +1,3 @@
+c=input('Enter Temperature in degree celsius : ')
+f=int(c)+32
+print('Temperature in fahrenheit :',f)
