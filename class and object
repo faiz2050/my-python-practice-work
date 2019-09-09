@@ -1,0 +1,7 @@
+class test:
+    a=10   #class level
+    def fun():
+        print("fun....")
+        return
+print("a : ",test.a)
+test.fun()
