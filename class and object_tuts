@@ -1,0 +1,48 @@
+#Object Creation
+
+#1>to access dynamic member od the class you should create the object
+
+#2>object creation is possible by calling the constructor.
+class test():
+    def __init__ (self):
+        print("Constructor ")
+        return
+    def main():
+        test()
+        test()
+        test()
+        return
+test.main()
+
+#if local variable is not present it access global variable
+a=10 #global
+class test():
+    a=20
+    def m1():
+        a=30
+        print("insisde m1 : ")
+        print(a)
+        print(test.a)
+        return
+    def m2():
+        a=23
+        print("inside m2 : ")
+        print(a)
+        print(test.a)
+        return
+    def main():
+        test.m1()
+        test.
+        m2()
+test.main()
+    
+#we can create variable inside the object from constructor
+class test:
+    def __init__ (self):
+        self.a=10
+        return
+    def main():
+        obj=test()
+        print("a:",obj.a)
+        return
+test.main()
