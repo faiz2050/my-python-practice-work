@@ -1,0 +1,13 @@
+#private access modifier
+class test:
+  a=10
+  __b=20         #private member
+  def main():
+    print("a :",test.a")
+    print("b :",test.__b)
+    return
+test.main()
+
+ 
+ 
+        
