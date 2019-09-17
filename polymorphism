@@ -1,0 +1,50 @@
+#compile time polymorphism
+class calc:
+    def add(x,y):
+        res=x+y
+        print("sum of two number:",res)
+        return
+    def add(x,y,z):
+        res=x+y+z
+        print("sum of three numbers:",res)
+        return
+class overloading:
+    def main():
+        calc.add(10,20,30)
+        calc.add(20,30)    #error
+        return
+overloading.main()
+
+#eg.2
+class calc:
+    def add(*arr):
+        l=len(arr)
+        res=0
+        for val in arr:
+            res=res+val
+        print("sum of",l,"integers:",res)
+        return
+class overloading:
+    def main():
+        calc.add(10,20,30)
+        calc.add(30,20)
+        return
+overloading.main()
+
+#run time polymorphism
+
+class parent:
+    def fun(self):
+        print("parent class")
+        return
+    def child(parent):
+        def fun(self):
+            print("child class")
+            return
+class overriding:
+    def main():
+        obj=child()
+        obj.fun()
+        super(child,obj).fun()
+        return
+overriding.main()
