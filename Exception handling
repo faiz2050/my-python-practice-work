@@ -1,0 +1,11 @@
+class StringToInt:
+  def main():
+    s=input("enter a integer no.:")
+    try:
+      i=int(s)
+      print("int val:",i)
+    except ValueError:
+      print("Exception:Invalid Input")
+    print("end")
+    return
+StringToInt.main()
